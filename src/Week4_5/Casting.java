@@ -9,6 +9,10 @@ public class Casting {
         int b = (int) aa;
         System.out.println(b); //Outputs 42
 
+        float f = 3.9999f;
+        int aaa = (int)f;
+        System.out.println(aaa); // will output 3 !
+
     }
 
 }
