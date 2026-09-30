@@ -4,5 +4,6 @@ public class Main14 {
     public static void main(String[] args) {
         Cat14 c = new Cat14();
         c.makeSound();
+        c.eat();
     }
 }

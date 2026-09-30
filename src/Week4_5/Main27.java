@@ -7,6 +7,7 @@ class Main27 {
                 System.out.println("Wooooo");
             }
         };
+        m1.start();
         Machine m2 = new Machine();
         m2.start();
     }
