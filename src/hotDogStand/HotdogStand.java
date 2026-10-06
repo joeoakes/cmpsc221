@@ -5,7 +5,7 @@
  */
 package hotDogStand;
 
-import app.Pseudocode.Customer;
+//import app.Pseudocode.Customer;
 
 /**
  *
@@ -17,7 +17,7 @@ public class HotdogStand {
      * @param args the command line arguments
      */
     
-    Customer[] customer;
+    //Customer[] customer;
     HotdogStand[] hotdogStands;
         //customers and hotdog stands will be created here
         
@@ -27,5 +27,5 @@ public class HotdogStand {
         
         
     }
-    
+
 }
