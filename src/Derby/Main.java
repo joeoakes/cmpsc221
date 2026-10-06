@@ -13,6 +13,7 @@ public class Main {
         try (Connection conn = DriverManager.getConnection(url);
              Statement stmt = conn.createStatement()) {
 
+            stmt.executeUpdate("Drop Table users");
             stmt.executeUpdate("CREATE TABLE users (id INT PRIMARY KEY, name VARCHAR(50))");
             stmt.executeUpdate("INSERT INTO users VALUES (1, 'Joe')");
             stmt.executeUpdate("INSERT INTO users VALUES (2, 'Jim')");
