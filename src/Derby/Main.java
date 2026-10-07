@@ -8,7 +8,7 @@ import java.sql.ResultSet;
 public class Main {
     public static void main(String[] args) {
         //String url = "jdbc:derby:myDB;create=true";  // embedded mode
-        String url = "jdbc:derby:C:/Users/joeoa/myDB2;create=true";
+        String url = "jdbc:derby:C:/Users/joeoa/myDB3;create=true";
 
         try (Connection conn = DriverManager.getConnection(url);
              Statement stmt = conn.createStatement()) {
